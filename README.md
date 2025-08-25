@@ -24,6 +24,15 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+POST http://localhost:3000/users → { "name": "Krish", "email": "krish@example.com" }
+
+GET http://localhost:3000/users
+
+GET http://localhost:3000/users/1
+
+PUT http://localhost:3000/users/1 → { "name": "New Name" }
+
+DELETE http://localhost:3000/users/1
 
 ## Project setup
 
